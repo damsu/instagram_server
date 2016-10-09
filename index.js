@@ -8,7 +8,10 @@ var app = express();
 
 // You can store key-value pairs in express, here we store the port setting
 app.set('port', (process.env.PORT || 80));
+var cors = require('cors');
 
+
+app.use(cors());
 // bodyParser needs to be configured for parsing JSON from HTTP body
 app.use(bodyParser.json());
 
