@@ -146,5 +146,10 @@ exports.getAllPosts = function () {
     return posts;
 }
 
+exports.addPost = function (post) {
+    
+    posts.unshift(post);
+}
+
 
 
