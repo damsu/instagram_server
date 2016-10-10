@@ -12,7 +12,7 @@ var app = express();
 // Config cloudinary storage for multer-storage-cloudinary
 var storage = cloudinaryStorage({
     cloudinary: cloudinary,
-    folder: 'insta', // give cloudinary folder where you want to store images
+    folder: '/insta', // give cloudinary folder where you want to store images
     allowedFormats: ['jpg', 'png'],
 });
 
