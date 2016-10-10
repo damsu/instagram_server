@@ -65,7 +65,7 @@ app.post('/login', function (req, res) {
 app.post('/upload', parser.single('image'), function (req, res) {
     console.log(req.file);
     res.sendStatus(201);
-    return req.file;
+    res.json(req.file);
 
 });
 
