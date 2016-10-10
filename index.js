@@ -28,9 +28,9 @@ var users = [{
     }
 ];
 
-app.get('/users', function (req, res){
+app.get('/users', function (req, res) {
     return users;
-})
+});
 
 app.post('/login', function (req, res) {
     console.log("test");
@@ -45,7 +45,7 @@ app.post('/login', function (req, res) {
     else {
         return res.sendStatus(401);
     }
-})
+});
 
 app.post('/register', function (req, res) {
     console.log("test");
@@ -55,7 +55,7 @@ app.post('/register', function (req, res) {
         username: req.body.username,
         password: req.body.password
     }
-})
+});
 
 // Mount our routes behind /api/ prefix
 //app.use('/api', books);
