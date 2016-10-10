@@ -7,7 +7,7 @@ var router = express.Router();
 //
 
 function getAllPosts(req, res, next) {
-    res.json(data.getAllStudents());
+    res.json(data.getAllPosts());
 }
 
 
