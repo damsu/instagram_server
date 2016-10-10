@@ -19,6 +19,9 @@
   "dependencies": {
     "body-parser": "^1.15.2",
     "express": "^4.14.0",
-    "cors": "^2.8.1"
+    "cors": "^2.8.1",
+    "cloudinary": "^1.4.3",
+    "multer": "^1.2.0",
+    "multer-storage-cloudinary": "^1.2.1"
   }
 }
