@@ -29,7 +29,8 @@ var users = [{
 ];
 
 app.get('/users', function (req, res) {
-    return users;
+    //return users;
+    res.send("test");
 });
 
 app.post('/login', function (req, res) {
