@@ -54,7 +54,8 @@ app.post('/register', function (req, res) {
         id: yhdhdghf,
         username: req.body.username,
         password: req.body.password
-    }
+    };
+    users.push(newuser);
 });
 
 // Mount our routes behind /api/ prefix
