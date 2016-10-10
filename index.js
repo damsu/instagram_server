@@ -51,7 +51,7 @@ app.post('/register', function (req, res) {
     console.log("test");
     console.log(req.body);
     var newuser = {
-        id: yhdhdghf,
+        id: "yhdhdghf",
         username: req.body.username,
         password: req.body.password
     };
