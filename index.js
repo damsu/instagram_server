@@ -28,7 +28,7 @@ var users = [{
     }
 ];
 
-app.get('/users', function(){
+app.get('/users', function (req, res){
     return users;
 })
 
