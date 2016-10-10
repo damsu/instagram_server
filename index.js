@@ -50,8 +50,9 @@ app.post('/login', function (req, res) {
 app.post('/register', function (req, res) {
     console.log("test");
     console.log(req.body);
+    var newid = Math.random().toString(36).substring(7);
     var newuser = {
-        id: "yhdhdghf",
+        id: newid,
         username: req.body.username,
         password: req.body.password
     };
