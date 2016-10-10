@@ -64,7 +64,7 @@ app.post('/login', function (req, res) {
 // below, which then sends the 201 (CREATED) response. Notice that error handling has not been properly implemented.
 app.post('/upload', parser.single('image'), function (req, res) {
     console.log(req.file);
-    res.sendStatus(201);
+    res.sendStatus(201).send(req.file.url);
     //res.json(req.file);
 
 });
