@@ -3,7 +3,7 @@
 				
 var posts = [{
     id: 0,
-    username: 'Ben Sparrow',
+    username: 'john',
     userId: "xvj2f2",
     caption: 'You on your way?',
     face: 'http://kurld.com/images/wallpapers/profile-pictures/profile-pictures-14.jpg',
@@ -21,7 +21,7 @@ var posts = [{
     comments: []
 }, {
     id: 2,
-    username: 'Ben Sparrow',
+    username: 'john',
     userId: "xvj2f2",
     caption: 'I should buy a boat',
     face: 'http://kurld.com/images/wallpapers/profile-pictures/profile-pictures-14.jpg',
@@ -30,7 +30,7 @@ var posts = [{
     comments: []
 }, {
     id: 3,
-    username: 'Ben Sparrow',
+    username: 'john',
     userId: "xvj2f2",
     caption: 'Look at my mukluks!',
     face: 'http://kurld.com/images/wallpapers/profile-pictures/profile-pictures-14.jpg',
@@ -57,7 +57,7 @@ var posts = [{
     comments: []
 }, {
     id: 6,
-    username: 'Ben Sparrow',
+    username: 'john',
     userId: "xvj2f2",
     caption: 'This is wicked good ice cream.',
     face: 'http://kurld.com/images/wallpapers/profile-pictures/profile-pictures-14.jpg',
@@ -75,7 +75,7 @@ var posts = [{
     comments: []
 }, {
     id: 8,
-    username: 'Ben Sparrow',
+    username: 'john',
     userId: "xvj2f2",
     caption: 'This is wicked good ice cream.',
     face: 'http://kurld.com/images/wallpapers/profile-pictures/profile-pictures-14.jpg',
@@ -84,7 +84,7 @@ var posts = [{
     comments: []
 }, {
     id: 9,
-    username: 'Ben Sparrow',
+    username: 'john',
     userId: "xvj2f2",
     caption: 'This is wicked good ice cream.',
     face: 'http://kurld.com/images/wallpapers/profile-pictures/profile-pictures-14.jpg',
@@ -102,7 +102,7 @@ var posts = [{
     comments: []
 }, {
     id: 11,
-    username: 'Ben Sparrow',
+    username: 'john',
     userId: "xvj2f2",
     caption: 'This is wicked good ice cream.',
     face: 'http://kurld.com/images/wallpapers/profile-pictures/profile-pictures-14.jpg',

@@ -1,4 +1,4 @@
-var data = require('./data.js');
+var data = require('../data');
 var express = require('express');
 var router = express.Router();
 
@@ -7,7 +7,7 @@ var router = express.Router();
 //
 
 function getAllPosts(req, res, next) {
-    res.json(data.getAllPosts());
+    res.json(data.getAllStudents());
 }
 
 
