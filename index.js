@@ -28,6 +28,10 @@ var users = [{
     }
 ];
 
+app.get('/users', function(){
+    return users;
+})
+
 app.post('/login', function (req, res) {
     console.log("test");
     console.log(req.body);
@@ -40,6 +44,16 @@ app.post('/login', function (req, res) {
     }
     else {
         return res.sendStatus(401);
+    }
+})
+
+app.post('/register', function (req, res) {
+    console.log("test");
+    console.log(req.body);
+    var newuser = {
+        id: yhdhdghf,
+        username: req.body.username,
+        password: req.body.password
     }
 })
 
