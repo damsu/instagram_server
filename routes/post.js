@@ -110,8 +110,8 @@ module.exports = function(models)
 
                         // store the post to db
                         u.createPost({
-                            image: cloudinary.url(cloudinaryResult.public_id, { width: 800, height: 600, crop: 'fill' } ),        
-                            imageThumbnail: cloudinary.url(cloudinaryResult.public_id, { width: 150, height: 100, crop: 'fill' } ),        
+                            image: cloudinary.url(cloudinaryResult.public_id, { width: 800, height: 800, crop: 'fill' } ),        
+                            imageThumbnail: cloudinary.url(cloudinaryResult.public_id, { width: 150, height: 150, crop: 'fill' } ),        
                             caption: req.body.caption })        
                         .then(function(p) { 
                             p.dataValues.user = u;           
